@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "HARDWARE_OVERVIEW-backups")(type "KiCad")(uri "${KIPRJMOD}/HARDWARE_OVERVIEW-backups.pretty")(options "")(descr ""))
+)
