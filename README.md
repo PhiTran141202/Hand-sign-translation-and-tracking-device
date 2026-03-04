@@ -2,11 +2,13 @@
 
 
 
-**INTRODUCTION**
+\############################# **INTRODUCTION ##############################**
+
+
 
 This is my project for my bachelor's thesis. The project's foundation is based on the mediapipe(https://mediapipe.dev/)
 
-hands recognition repo by Kazuhito Takahashi (https://github.com/Kazuhito00/hand-gesture-recognition-using-mediapipe) and translated into English by Nikita Kiselov (https://github.com/kinivi). For the handtracking part, it is based on the repo by Rizky Dermawan (Rishttps://github.com/rizkydermawan1992/handtracking)
+Hands recognition repo by Kazuhito Takahashi (https://github.com/Kazuhito00/hand-gesture-recognition-using-mediapipe) and translated into English by Nikita Kiselov (https://github.com/kinivi). For the handtracking part, it is based on the repo by Rizky Dermawan (Rishttps://github.com/rizkydermawan1992/handtracking)
 
 
 
@@ -30,7 +32,11 @@ The Arduino is powered by a 9V battery, and the Pi is powered by a portable powe
 
 
 
-**STEP 1:**
+\####################### **Image Processing part** ############################
+
+
+
+**STEP 1: setting up the Pi**
 
 * Raspbian OS: Raspberry Pi OS (64bit), Debian Bookworm with desktop
 * Python 3.11.2
@@ -57,6 +63,14 @@ The Arduino is powered by a 9V battery, and the Pi is powered by a portable powe
 
 
 
+\*CONSULT THE ORIGINAL MEDIAPIPE REPO TO TRAIN YOUR OWN DATA\*
+
+
+
+
+
+\####################### **Hand tracking part** ############################
+
 
 
 **Python packages required for hand tracking:**
@@ -75,11 +89,9 @@ The Arduino is powered by a 9V battery, and the Pi is powered by a portable powe
 
 
 
-\*IF YOU WANT TO TRAIN YOUR OWN DATA, CONSULT THE ORIGINAL REPO TO KNOW HOW\*
 
 
-
-**REFERENCES**
+\######################### **REFERENCES ###################################**
 
 
 
