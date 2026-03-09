@@ -6,9 +6,7 @@
 
 
 
-This is my project for my bachelor's thesis. The project's foundation is based on the mediapipe(https://mediapipe.dev/)
-
-Hands recognition repo by Kazuhito Takahashi (https://github.com/Kazuhito00/hand-gesture-recognition-using-mediapipe) and translated into English by Nikita Kiselov (https://github.com/kinivi). For the handtracking part, it is based on the repo by Rizky Dermawan (Rishttps://github.com/rizkydermawan1992/handtracking)
+The project's foundation is based on the mediapipe(https://mediapipe.dev/) Hands recognition repo by Kazuhito Takahashi (https://github.com/Kazuhito00/hand-gesture-recognition-using-mediapipe) and translated into English by Nikita Kiselov (https://github.com/kinivi). For the handtracking part, it is based on the repo by Rizky Dermawan (Rishttps://github.com/rizkydermawan1992/handtracking)
 
 
 
@@ -16,7 +14,7 @@ My version of the repo is trained to read 24 letters of the ASL alphabet (minus 
 
 
 
-All of these are controlled by a Raspberry Pi 4, which is the main CPU that will be processing the captured images with a Picamera attached to the servos. This required more modifications so that the program can work properly in the Raspbian OS and in conjunction with the Picamera.
+All of these are controlled by a Raspberry Pi 4, which will be processing the captured images with a Picamera attached to the servos. This required more modifications so that the program can work properly in the Raspbian OS and in conjunction with the Picamera and the servos.
 
 
 
@@ -24,11 +22,11 @@ The Arduino is powered by a 9V battery, and the Pi is powered by a portable powe
 
 
 
-**Notes: Mediapipe doesn't work on Raspbian Bullseye -> download the bookworm version**
+**Note: Mediapipe doesn't work on Raspbian Bullseye -> download the bookworm version**
 
 
 
-**HERE ARE THE RECOMMENDED STEPS TO MAKE SURE THE MAIN PROGRAM RUNS SMOOTHLY WHEN IMPORTED INTO THE RASPBERRY PI:**
+**HERE ARE THE STEPS TO MAKE SURE THE MAIN PROGRAM RUNS SMOOTHLY WHEN IMPORTED INTO THE RASPBERRY PI SYSTEM:**
 
 
 
